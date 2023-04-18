@@ -1,0 +1,113 @@
+
+
+h1.misEnAvant{
+    color: #fff8cc;
+    font-weight: normal;
+    background-color: #45372d;
+    border-radius: 30px;
+    font-family:'Lobster', cursive;
+    font-size: 5em;
+    border: 12px double #dcc329;
+    text-shadow: 3px 3px 4px #fff8cc;
+    text-align: center;
+    box-shadow: 25px 25px 25px #45372d;
+    padding: 2% 10% 2% 10%;
+    
+} 
+h2.monsieur{
+    color: #883700;
+    font-size: 4em;
+    text-align: center;
+    
+}
+h2.monsieur span{
+
+    font-style: italic;
+}
+body {
+
+background-color: #fff8cc;
+
+}
+.paragrapheEX{
+    color: #fff8cc;
+    font-size: 2.5em;
+    background-color: #45372d;
+    border-radius: 10px;
+    text-align: center;
+    border: 12px dashed #dcc329;
+}
+.adress{
+
+    color:#883700; 
+    font-size: 3em;
+
+}
+.adress span{
+    font-weight: bold;
+}
+.adresss{
+
+    text-decoration: underline;
+}
+.boulanger{
+    text-align: center ;
+    
+}
+.facade{
+    text-align:center;
+}
+.contact{
+    font-size: 3em;
+    color:#883700;
+    text-align: center;
+} 
+h3{
+    font-size: 3em;
+    font-weight: normal;
+    color:#dcc329;
+    text-decoration: underline;
+}
+img.img2{
+    width: 600px;
+    border: 12px dotted #45372d;
+}
+h4.paris{
+    font-size: 3em;
+    font-weight: normal;
+    color:#dcc329;
+    text-decoration: underline;
+}
+img.img3{
+    width: 600px;
+    border: 12px dotted #45372d;
+}
+
+h5{
+    font-size: 3em;
+    font-weight: normal;
+    color:#dcc329;
+    text-decoration: underline;
+}
+img.img4{
+    width: 600px;
+    border: 12px dotted #45372d;
+}
+h6{
+    font-size: 3em;
+    font-weight: normal;
+    color:#dcc329;
+    text-decoration: underline;
+}
+img.img5{
+    width: 600px;
+    border: 12px dotted #45372d;
+}
+#MisEnAvant{
+    text-align: center;
+    
+}
+
+
+
+
