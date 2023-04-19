@@ -1,6 +1,6 @@
 
 
-h1.misEnAvant{
+h1{
     color: #fff8cc;
     font-weight: normal;
     background-color: #45372d;
@@ -17,12 +17,8 @@ h1.misEnAvant{
 h2.monsieur{
     color: #883700;
     font-size: 4em;
-    text-align: center;
-    
-}
-h2.monsieur span{
+     text-align: center;
 
-    font-style: italic;
 }
 body {
 
@@ -103,11 +99,28 @@ img.img5{
     width: 600px;
     border: 12px dotted #45372d;
 }
-#MisEnAvant{
-    text-align: center;
+.MisEnAvant{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+
+}
+.misEnAvant{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+
+}
+.MisEnAvantS{
+    display: flex;
+    
     
 }
 
+.horaires{
+    font-size: 2.5em;
+    color:#883700;
+}
 
 
 

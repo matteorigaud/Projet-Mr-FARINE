@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande chez Monsieur FARINE</title>
+    <link rel="stylesheet" href="recuperation.css">
+</head>
+<body>
+    <header>
+        <h1> Récupération de la commande ! </h1>
+        <form action="traitement.html" method="post"> 
+            <fieldset>
+            <p>Les champs avec un * sont obligatoires </p>
+            
+            <label for="le_prenom">Votre prénom</label> :*
+            <input type="text" name="prenom" id="le_prenom" required maxlength="150" placeholder="Prénom" autofocus>
+
+            <label for="le_nom">Votre nom</label> :*
+            <input type="text" name="nom" id="le_nom" required maxlength="150" placeholder="Nom">
+
+            <label for="votre_adresse_postale">Votre adresse postale</label>:*
+            <input type="text" name="adresse_postale" id="votre_adresse_postale" required maxlength="250" placeholder="Adresse postale">
+
+            <label for="votre_code_postale">Votre code postable</label>:*
+            <input type="text" name="code_postale" id="votre_code_postale" minlength="6" maxlength="6" pattern="[0-9]{5,6}" required placeholder="Code postale" >
+
+            <label for="votre_ville">Votre ville</label>:*
+            <input type="text" name="ville" id="votre_ville" required maxlength="250" placeholder="Ville">
+            <br>
+            <label for="le_mail">Votre mail :</label>
+            <input type="email"  name="mail" id="le_mail" required placeholder="Mail">
+
+            <label for="numero">Votre numéro de téléphone :*</label>
+            <input type="tel" name="numero_de_telephone" id="numero" required placeholder="Ex: 0614141414" pattern="[0-9]{10}" minlength="10" maxlength="10">
+
+            <br>Comment souhaitez vous récupérer votre commande ? 
+            <label for="recuperer_livraison">En livraison</label>
+            <input type="radio" name="commande" value="commande" id="recuperer_livraison" required>
+            <label for="recuperer_emporter">A emporter</label>
+            <input type="radio" name="commande" value="commande" id="recuperer_emporter"> <br>
+          
+
+            Quand souhaitez vous récuperer votre commande si à emporter ?<br>
+            <label for="emporter">Jours et heures</label>            
+            <input type="datetime-local" name="emporter" id="emporter"><br>
+
+            Quand souhaitez vous être livrer si en livraison ? <br>
+            <label for="livraison">Jours et heures</label>            
+            <input type="datetime-local" name="livraison" id="livraison">
+
+
+
+
+
+
+           <input type="submit" value="Envoyer" >
+            
+            </fieldset>
+        </form>
+    </header>
+    <main>
+
+
+
+
+
+
+
+
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+    background-color: #fff8cc;
+    font-size: 8px;
+}
+h1{
+    color: #fff8cc;
+    font-weight: normal;
+    background-color: #45372d;
+    border-radius: 30px;
+    font-family:'Lobster', cursive;
+    font-size: 4em;
+    border: 12px double #dcc329;
+    text-shadow: 3px 3px 4px #fff8cc;
+    text-align: center;
+    box-shadow: 25px 25px 25px #45372d;
+    padding: 2% 10% 2% 10%;
+    
+}  
+p{
+
+    font-size: 23px;
+}
+p.nos_pains{
+
+color: #883700;
+font-size : 50px;
+text-decoration: underline;
+
+}
+div.ensemble{
+
+    display: flex;
+    justify-content: center;
+}
