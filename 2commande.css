@@ -20,7 +20,7 @@ p{
 
     font-size: 23px;
 }
-p.nos_pains{
+p.nos_vienoiserie{
 
 color: #883700;
 font-size : 40px;
@@ -28,7 +28,7 @@ text-decoration: underline;
 
 }
 
-p.pain{
+p.vienoiserie{
     color: #1a0f08;
     font-size: 30px; 
     font-weight: bold;
@@ -42,7 +42,6 @@ img.image{
     text-align: center;
     
 }
-
 div.centre{
     text-align: center;
 }
@@ -58,4 +57,3 @@ div.page{
     font-size: 20px;
     color: #883700;
 }
-
