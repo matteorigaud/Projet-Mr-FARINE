@@ -46,12 +46,10 @@ background-color: #fff8cc;
 
     text-decoration: underline;
 }
-.boulanger{
-    text-align: center ; 
-}
-.facade{
-    width: 200px;
-    
+
+img{
+    width: 500px;
+    text-align: center;
 }
 .contact{
     padding-top: 10px;

@@ -51,11 +51,11 @@ div.taille{
     justify-content: center;
     font-size: 25px;
 }
-div.page{
-    
+a.page{
     text-align: center;
-    padding-top: 3%;
+    padding-top: 10px;
     font-size: 20px;
-    color: #883700;
+    color:#883700;
+    
 }
 
