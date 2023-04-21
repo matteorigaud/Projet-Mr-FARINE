@@ -33,32 +33,23 @@
             <input type="email"  name="mail" id="le_mail" required placeholder="Mail">
 
             <label for="numero">Votre numéro de téléphone :*</label>
-            <input type="tel" name="numero_de_telephone" id="numero" required placeholder="Ex: 0614141414" pattern="[0-9]{10}" minlength="10" maxlength="10">
-
-            <br>Comment souhaitez vous récupérer votre commande ? 
-            <label for="recuperer_livraison">En livraison</label>
-            <input type="radio" name="commande" value="commande" id="recuperer_livraison" required>
-            <label for="recuperer_emporter">A emporter</label>
-            <input type="radio" name="commande" value="commande" id="recuperer_emporter"> <br>
+            <input type="tel" name="numero_de_telephone" id="numero" required placeholder="Ex: 0614141414" pattern="[0-9]{10}" minlength="10" maxlength="10"><br>
           
+            Quand souhaitez vous récuperer votre commande ?<br>
+            <label for="emporter">Quels jours ?</label>            
+            <input type="date" name="emporter" id="emporter" required><br>
 
-            Quand souhaitez vous récuperer votre commande si à emporter ?<br>
-            <label for="emporter">Jours et heures</label>            
-            <input type="datetime-local" name="emporter" id="emporter"><br>
-
-            Quand souhaitez vous être livrer si en livraison ? <br>
-            <label for="livraison">Jours et heures</label>            
-            <input type="datetime-local" name="livraison" id="livraison">
-
-
-
-
-
-
-           <input type="submit" value="Envoyer" >
+            <div>
+            <label for="appt-time">Veuillez choisir une heure pour récupérer votre commande (heures de récupération possible du mardi au samedi entre 6:00 à 20:00) : </label>
+            <input id="appt-time" type="time" name="appt-time" min="6:00" max="20:00"required pattern="[0-9]{2}:[0-9]{2}">
+            <span class="validity"></span>
+            </div>
             
+           <input type="submit" value="Envoyer" >
+
             </fieldset>
         </form>
+        <a  class="page" href="2commande.html">Revenir à la page précédente</a>
     </header>
     <main>
 

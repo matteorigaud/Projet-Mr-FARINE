@@ -20,7 +20,7 @@ p{
 
     font-size: 23px;
 }
-p.nos_vienoiserie{
+p.nos_patisserie{
 
 color: #883700;
 font-size : 40px;
@@ -28,7 +28,7 @@ text-decoration: underline;
 
 }
 
-p.vienoiserie{
+p.patisserie{
     color: #1a0f08;
     font-size: 30px; 
     font-weight: bold;

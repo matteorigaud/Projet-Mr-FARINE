@@ -1,5 +1,9 @@
 
+body {
 
+background-color: #fff8cc;
+
+}
 h1{
     color: #fff8cc;
     font-weight: normal;
@@ -20,11 +24,7 @@ h2.monsieur{
      text-align: center;
 
 }
-body {
 
-background-color: #fff8cc;
-
-}
 .paragrapheEX{
     color: #fff8cc;
     font-size: 30px;
@@ -37,6 +37,7 @@ background-color: #fff8cc;
 
     color:#883700; 
     font-size: 35px;
+    text-align: center;
 
 }
 .adress span{
@@ -47,9 +48,10 @@ background-color: #fff8cc;
     text-decoration: underline;
 }
 
-img{
-    width: 500px;
+img.images{
+    width: 700px;
     text-align: center;
+    
 }
 .contact{
     padding-top: 10px;
@@ -57,47 +59,8 @@ img{
     color:#883700;
     text-align: center;
 } 
-h3{
-    font-size: 25px;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
-}
-img.img2{
-    width: 200px;
-    border: 7px dotted #45372d;
-}
-h4.paris{
-    font-size: 25px;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
-}
-img.img3{
-    width: 200px;
-    border: 7px dotted #45372d;
-}
 
-h5{
-    font-size: 25px;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
-}
-img.img4{
-    width: 200px;
-    border: 7px dotted #45372d;
-}
-h6{
-    font-size: 25px;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
-}
-img.img5{
-    width: 200px;
-    border: 7px dotted #45372d;
-}
+
 .MisEnAvant{
     padding-top: 2%;
     display: flex;
@@ -120,6 +83,9 @@ img.img5{
     font-size: 30px;
     color:#883700;
 }
+div.centre{
 
+    text-align: center;
+}
 
 
