@@ -1,0 +1,43 @@
+body{
+    background-color: #fff8cc;
+    font-size: 8px;
+}
+h1{
+    color: #fff8cc;
+    font-weight: normal;
+    background-color: #45372d;
+    border-radius: 30px;
+    font-family:'Lobster', cursive;
+    font-size: 5em;
+    border: 12px double #dcc329;
+    text-shadow: 3px 3px 4px #fff8cc;
+    text-align: center;
+    box-shadow: 25px 25px 25px #45372d;
+    padding: 2% 10% 2% 10%;
+    
+}   
+form{
+
+    font-size: 20px;
+}
+
+.page{
+    padding-top: 10px;
+    font-size: 20px;
+    color:#883700;
+    text-align: center;
+    
+}
+
+input:invalid+span:after {
+    position: absolute;
+    content: '✖';
+    padding-left: 5px;
+  }
+  
+  input:valid+span:after {
+    position: absolute;
+    content: '✓';
+    padding-left: 5px;
+  }
+

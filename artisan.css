@@ -1,12 +1,16 @@
 
+body {
 
-h1.misEnAvant{
+background-color: #fff8cc;
+
+}
+h1{
     color: #fff8cc;
     font-weight: normal;
     background-color: #45372d;
     border-radius: 30px;
     font-family:'Lobster', cursive;
-    font-size: 5em;
+    font-size: 3em;
     border: 12px double #dcc329;
     text-shadow: 3px 3px 4px #fff8cc;
     text-align: center;
@@ -16,22 +20,14 @@ h1.misEnAvant{
 } 
 h2.monsieur{
     color: #883700;
-    font-size: 4em;
-    text-align: center;
-    
-}
-h2.monsieur span{
-
-    font-style: italic;
-}
-body {
-
-background-color: #fff8cc;
+    font-size: 40px;
+     text-align: center;
 
 }
+
 .paragrapheEX{
     color: #fff8cc;
-    font-size: 2.5em;
+    font-size: 30px;
     background-color: #45372d;
     border-radius: 10px;
     text-align: center;
@@ -40,7 +36,8 @@ background-color: #fff8cc;
 .adress{
 
     color:#883700; 
-    font-size: 3em;
+    font-size: 35px;
+    text-align: center;
 
 }
 .adress span{
@@ -50,64 +47,45 @@ background-color: #fff8cc;
 
     text-decoration: underline;
 }
-.boulanger{
-    text-align: center ;
+
+img.images{
+    width: 700px;
+    text-align: center;
     
 }
-.facade{
-    text-align:center;
-}
 .contact{
-    font-size: 3em;
+    padding-top: 10px;
+    font-size: 30px;
     color:#883700;
     text-align: center;
 } 
-h3{
-    font-size: 3em;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
-}
-img.img2{
-    width: 600px;
-    border: 12px dotted #45372d;
-}
-h4.paris{
-    font-size: 3em;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
-}
-img.img3{
-    width: 600px;
-    border: 12px dotted #45372d;
-}
 
-h5{
-    font-size: 3em;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
+
+.MisEnAvant{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+
 }
-img.img4{
-    width: 600px;
-    border: 12px dotted #45372d;
+.misEnAvant{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+
 }
-h6{
-    font-size: 3em;
-    font-weight: normal;
-    color:#dcc329;
-    text-decoration: underline;
-}
-img.img5{
-    width: 600px;
-    border: 12px dotted #45372d;
-}
-#MisEnAvant{
-    text-align: center;
+.MisEnAvantS{
+    display: flex;
+    
     
 }
 
+.horaires{
+    font-size: 30px;
+    color:#883700;
+}
+div.centre{
 
+    text-align: center;
+}
 
 

@@ -1,0 +1,61 @@
+body{
+    background-color: #fff8cc;
+    font-size: 8px;
+}
+h1{
+    color: #fff8cc;
+    font-weight: normal;
+    background-color: #45372d;
+    border-radius: 30px;
+    font-family:'Lobster', cursive;
+    font-size: 40px;
+    border: 12px double #dcc329;
+    text-shadow: 3px 3px 4px #fff8cc;
+    text-align: center;
+    box-shadow: 25px 25px 25px #45372d;
+    padding: 2% 10% 2% 10%;
+    
+}  
+p{
+
+    font-size: 23px;
+}
+p.nos_pains{
+
+color: #883700;
+font-size : 40px;
+text-decoration: underline;
+
+}
+
+p.pain{
+    color: #1a0f08;
+    font-size: 30px; 
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+   
+}
+img.image{
+    width: 300px;
+    text-align: center;
+    
+}
+
+div.centre{
+    text-align: center;
+}
+div.taille{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.page{
+    padding-top: 10px;
+    font-size: 30px;
+    color:#883700;
+    text-align: center;
+    
+}
+
